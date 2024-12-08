@@ -8,4 +8,3 @@ pinecone[grpc]
 langchain-pinecone
 langchain-text-splitters
 langchain
-
