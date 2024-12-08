@@ -41,8 +41,8 @@ async def call_openai_assistant_api(user_message):
     try:
         # 呼叫 OpenAI 的 Assistant API
         response = await openai.Assistants.create(
-            assistant_id='asst_HVKXE6R3ZcGb6oW6fDEpbdOi',
-            vector_store_id='vs_O4EC1xmZuHy3WiSlcmklQgsR',
+            assistant_id='asst_ShZXAJwKlokkj9rNhRi2f6pG',
+            vector_store_id='vs_QHeBHesKoOkuUQa7scnxls6U',
             messages=[
                 {"role": "user", "content": user_message}
             ]
